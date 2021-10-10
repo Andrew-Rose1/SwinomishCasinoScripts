@@ -16,6 +16,9 @@ To better organzie my work, I created a Virtual Linux Machine (AUTOVM) to store 
 - This script was ran daily and stored on the Virtual Linux Machine.
 ## Disalbe ActiveSync
 - A powershell scrip that prompt the user for a username of the person's account they wanted to disable email-on-phone for. The user's email-on-phone access would then be revoked.
+## LodgePMS
+- ReviewPro and Strategy9. Similar to "Atlas To Tritium Transfer", this program will scan a folder and move specific files to another server.
+- This script was ran daily and stored on the Virtual Linux Machine.
 ## Windows 2004 Scan
 - A script that scanned a device report from Endpoint Manager to find all Windows 10 machines that were below Windows build 2004. It would then export these computers to a csv file for the IT Department technicians to use as a reference sheet for Windows OS updates. 
 ## SQL DB Scan
