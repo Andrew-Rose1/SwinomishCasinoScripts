@@ -14,7 +14,7 @@ To better organzie my work, I created a Virtual Linux Machine (AUTOVM) to store 
 ## ClubData CleanUp
 - Script that would scan the given directory and delete all folders except for the last two added.
 - This script was ran daily and stored on the Virtual Linux Machine.
-## Disalbe ActiveSync
+## Disable ActiveSync
 - A powershell scrip that prompt the user for a username of the person's account they wanted to disable email-on-phone for. The user's email-on-phone access would then be revoked.
 ## LodgePMS
 - ReviewPro and Strategy9. Similar to "Atlas To Tritium Transfer", this program will scan a folder and move specific files to another server.
