@@ -2,7 +2,7 @@
 An accumulation of the small scripts I made while working at Swinomish Casino and Lodge.
 Some have been slightly altered since their deployment.
 
-These scripts were made while closly working with the Systam Administration/IT Manager and Database Analyst at Swinomish Casino and Lodge.
+These scripts were made while closly working with the System Administration/IT Manager and Database Analyst at Swinomish Casino and Lodge.
 
 To better organzie my work, I created a Virtual Linux Machine (AUTOVM) to store and run the scripts that would be ran daily/weekly/monthly. The scripts were ran via crontjobs and would email the appropriate department directors if the job ran successfully or failed. The scripts would also keep track of an outputLog (an example is included).
 
