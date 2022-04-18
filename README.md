@@ -22,7 +22,7 @@ To better organzie my work, I created a Virtual Linux Machine (AUTOVM) to store 
 ## Windows 2004 Scan
 - A script that scanned a device report from Endpoint Manager to find all Windows 10 machines that were below Windows build 2004. It would then export these computers to a csv file for the IT Department technicians to use as a reference sheet for Windows OS updates. 
 ## SQL DB Scan
-- A python script I created for my System Administrator that uses SQL queries to check a databse. The databse that it checks keeps track of all of our warranties for hardware and software. The script will find all warranties that are close to expiring and email the System Administrator of the ones it finds.
+- A python script I created for my System Administrator that uses SQL queries to check a database. The databse that it checks keeps track of all of our warranties for hardware and software. The script will find all warranties that are close to expiring and email the System Administrator of the ones it finds.
 - This script was ran daily and stored on the Virtual Linux Machine.
 ## SlotMixReporting
 - This script contains sensitive data and is still a work in progress
