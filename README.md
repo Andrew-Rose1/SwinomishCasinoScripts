@@ -26,6 +26,6 @@ To better organzie my work, I created a Virtual Linux Machine (AUTOVM) to store 
 - This script was ran daily and stored on the Virtual Linux Machine.
 ## SlotMixReporting
 - This script contains sensitive data and is still a work in progress
-- Basically it takes the companies slot machine data for the week and compares it to threshold and avergae values. These numbers are placed in tables corresponding to the slot machine bank number and attatched to a CAD drawing next to their respective bank.
+- Basically it takes the companies slot machine data for the week and compares it to threshold and average values. These numbers are placed in tables corresponding to the slot machine bank number and attatched to a CAD drawing next to their respective bank.
 - This is all done automatically with the execution of a script. This allowed my IT Manager and Slots Director to better visualize which slot machines are underperforming.
 - This script was ran weekly and stored on the Virtual Linux Machine.
