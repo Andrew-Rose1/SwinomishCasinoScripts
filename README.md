@@ -6,6 +6,25 @@ These scripts were made while closly working with the System Administrator/IT Ma
 
 To better organzie my work, I created a Virtual Linux Machine (AUTOVM) to store and run the scripts that would be ran daily/weekly/monthly. The scripts were ran via crontjobs and would notify the appropriate department directors, via email, of the job's outcome. The scripts would also keep track of an output log (an example is included).
 
+## Usage
+Most of these scripts are ran via automation. In the cases users want to manually run a script, this is how it is done:
+1. Python scripts can be ran manually on linux/unix machines (with python insatlled) with:
+
+    ```sh
+    python3 {PATH_TO_FILE}
+    ```
+    
+2. For Windows machines (most of our end user computers), I would provide thme with a .exe by using pyinstaller.
+  * Install pyinstaller
+    ```sh
+    pip install pyinstaller
+    ```
+  *
+    ```sh
+    pyinstaller --onefile {PATH_TO_FILE}
+    ```
+  * A "dist" folder wherver the command was ran. Inside there should be a standalone .exe.
+
 ## Atlas To Tritium
 - Move files from one sever to another, and create a copy to be archived. The files would be renamed according to the date inside of the report.
 - Ran daily and stored on the Virtual Linux Machine.
